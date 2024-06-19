@@ -3,7 +3,7 @@
 const request = require('request');
 
 const apiUrl = process.argv[2];
-const wedgeAntillesId = '3';
+const wedgeAntillesId = '18';
 
 request(apiUrl, (error, response, body) => {
   if (error) {
