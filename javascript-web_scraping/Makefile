@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 3-starwars_title.js
+Function_file = 4-starwars_count.js
 
 Project = pagination
 
