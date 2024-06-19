@@ -1,16 +1,17 @@
 #This is a Makefile
 
-Function_file = 10-car.js
+Function_file = 2-statuscode.js
 
 Project = pagination
 
 main:
-	chmod u+x $(Main_file)
+#chmod u+x $(Main_file)
 	chmod u+x $(Function_file)
 #black $(Function_file) 
 #pycodestyle $(Function_file)
-	npx eslint $(Function_file) --fix
-	npm run dev $(Main_file)
+	npx semistandard $(Function_file) --fix
+#npx eslint $(Function_file) --fix
+#npm run dev $(Main_file)
 #./$(Main_file)
 #cat $(Function_file) | mongo my_db
 
