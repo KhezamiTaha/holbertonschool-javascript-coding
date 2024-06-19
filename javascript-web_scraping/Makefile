@@ -1,6 +1,6 @@
 #This is a Makefile
 
-Function_file = 5-request_store.js
+Function_file = 6-completed_tasks.js
 
 Project = pagination
 
